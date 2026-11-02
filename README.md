@@ -107,7 +107,20 @@ Passwords are Argon2-hashed. JWTs are stored in browser local storage. Private i
 
 ## Screenshots
 
-Not included. Capture the running application for project submission; no screenshots or deployment are claimed here.
+<table>
+  <tr>
+    <th>Home Page</th>
+    <th>Interview Dashboard</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="/1.png" width="450" alt="InterviewIQ Home Page">
+    </td>
+    <td>
+      <img src="/2.png" width="450" alt="InterviewIQ Login Page">
+    </td>
+  </tr>
+</table>
 
 ## Deployment and future work
 
