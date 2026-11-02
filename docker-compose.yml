@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - GROQ_API_KEY=${GROQ_API_KEY}
+      - AI_PROVIDER=groq
+      - AI_MODEL=openai/gpt-oss-120b
+      - JWT_SECRET=${JWT_SECRET:-super-secret-production-key-change-this-32-chars-long}
+    volumes:
+      - ./data:/app/backend/data
