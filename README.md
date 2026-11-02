@@ -1,4 +1,4 @@
-# InterviewIQ
+# InterviewIQ by R k Jha
 
 **InterviewIQ** is an AI-assisted technical interview platform with four role tracks, voice capture, AI-generated questions, rubric-based answer evaluation, and resume feedback.
 
